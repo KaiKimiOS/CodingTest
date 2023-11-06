@@ -7,8 +7,7 @@
 
 import Foundation
 
-print("dd")
+var abc = readLine()!.split(separator: " ")
 
-var abc = readLine()!
-print("\(abc)가 잘 출력됨")
+print(abc)
 
