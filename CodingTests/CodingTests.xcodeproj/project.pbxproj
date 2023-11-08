@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B7F972E92AFB8B9C00D8401F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F972E82AFB8B9C00D8401F /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B70350CB2AF94F9A009E2E9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -140,7 +136,6 @@
 		B70351522AF95206009E2E9E /* 2016년 달력.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2016년 달력.playground"; sourceTree = "<group>"; };
 		B70351532AF95206009E2E9E /* 이상한 문자 만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "이상한 문자 만들기.playground"; sourceTree = "<group>"; };
 		B70351542AF95206009E2E9E /* 문자열다루기 기본.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "문자열다루기 기본.playground"; sourceTree = "<group>"; };
-		B7F972E82AFB8B9C00D8401F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				B70350D92AF95121009E2E9E /* 구간 합 구하기 4.swift */,
-				B7F972E82AFB8B9C00D8401F /* main.swift */,
 			);
 			name = "백준";
 			path = "백준";
@@ -378,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F972E92AFB8B9C00D8401F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
