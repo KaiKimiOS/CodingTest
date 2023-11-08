@@ -2,12 +2,13 @@
 //  main.swift
 //  CodingTests
 //
-//  Created by kaikim on 2023/11/07.
+//  Created by kaikim on 2023/11/08.
 //
 
 import Foundation
 
-var abc = readLine()!.split(separator: " ")
 
-print(abc)
+var firstReadLine = readLine()!.split(separator: " ").compactMap { Int(String($0))
+}
 
+print(firstReadLine)
