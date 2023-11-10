@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B76910D22AFD289B0097A33E /* 오큰수.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76910D12AFD289B0097A33E /* 오큰수.swift */; };
+		B7718E292AFE1DD900AE872D /* 수 정렬하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7718E252AFDF0D900AE872D /* 수 정렬하기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -142,6 +142,8 @@
 		B70351542AF95206009E2E9E /* 문자열다루기 기본.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "문자열다루기 기본.playground"; sourceTree = "<group>"; };
 		B76910CF2AFD0FF80097A33E /* 올바른 괄호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "올바른 괄호.swift"; sourceTree = "<group>"; };
 		B76910D12AFD289B0097A33E /* 오큰수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "오큰수.swift"; sourceTree = "<group>"; };
+		B7718E252AFDF0D900AE872D /* 수 정렬하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수 정렬하기.swift"; sourceTree = "<group>"; };
+		B7718E272AFE1B7900AE872D /* 좌표정렬하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "좌표정렬하기.swift"; sourceTree = "<group>"; };
 		B7C7A8032AFBC35E005CB7BA /* 캐시.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "캐시.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,8 @@
 			children = (
 				B70350D92AF95121009E2E9E /* 구간 합 구하기 4.swift */,
 				B76910D12AFD289B0097A33E /* 오큰수.swift */,
+				B7718E252AFDF0D900AE872D /* 수 정렬하기.swift */,
+				B7718E272AFE1B7900AE872D /* 좌표정렬하기.swift */,
 			);
 			name = "백준";
 			path = "백준";
@@ -390,7 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B76910D22AFD289B0097A33E /* 오큰수.swift in Sources */,
+				B7718E292AFE1DD900AE872D /* 수 정렬하기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
