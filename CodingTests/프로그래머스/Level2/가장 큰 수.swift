@@ -21,5 +21,4 @@ func solution(_ numbers:[Int]) -> String {
     return answer
 }
 
-solution([6,10,2])
 
