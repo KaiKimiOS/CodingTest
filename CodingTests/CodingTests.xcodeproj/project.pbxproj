@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AE3ED6B2B32817D009CB484 /* 네트워크(DFS).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3ED6A2B32817D009CB484 /* 네트워크(DFS).swift */; };
+		2AE3ED6F2B32A888009CB484 /* 내리막 길.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3ED6E2B32A888009CB484 /* 내리막 길.swift */; };
 		B7616ABD2B1E35AA001BD299 /* 오픈채팅방.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7616ABC2B1E35AA001BD299 /* 오픈채팅방.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		2AE3ED6A2B32817D009CB484 /* 네트워크(DFS).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "네트워크(DFS).swift"; sourceTree = "<group>"; };
+		2AE3ED6E2B32A888009CB484 /* 내리막 길.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "내리막 길.swift"; sourceTree = "<group>"; };
 		B70350CD2AF94F9A009E2E9E /* CodingTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70350D92AF95121009E2E9E /* 구간 합 구하기 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "구간 합 구하기 4.swift"; sourceTree = "<group>"; };
 		B70350DE2AF951B5009E2E9E /* 대문자와소문자.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "대문자와소문자.playground"; sourceTree = "<group>"; };
@@ -190,6 +191,7 @@
 				B7718E252AFDF0D900AE872D /* 수 정렬하기.swift */,
 				B7718E2A2AFE25C600AE872D /* 수 정렬하기 3.swift */,
 				B7718E272AFE1B7900AE872D /* 좌표정렬하기.swift */,
+				2AE3ED6E2B32A888009CB484 /* 내리막 길.swift */,
 			);
 			name = "백준";
 			path = "백준";
@@ -415,8 +417,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE3ED6F2B32A888009CB484 /* 내리막 길.swift in Sources */,
 				B7616ABD2B1E35AA001BD299 /* 오픈채팅방.swift in Sources */,
-				2AE3ED6B2B32817D009CB484 /* 네트워크(DFS).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
