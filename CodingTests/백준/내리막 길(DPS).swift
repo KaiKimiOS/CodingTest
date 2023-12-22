@@ -15,28 +15,28 @@ struct DFS {
     static var ry = [1,-1,0,0]
     static var map:[[Int]] = []
     static var cnt:[[Int]] = []
-  
-
-   static func setNumbers() {
+    
+    
+    static func setNumbers() {
         let firstReadLine = readLine()!.split(separator: " ").compactMap{Int($0)}
         row = firstReadLine[0]
         column = firstReadLine[1]
         map = Array(repeating: Array(repeating: 0, count: column), count: row)
         cnt = Array(repeating: Array(repeating: -1, count: column), count: row)
-
+        
         for i in 0..<row {
             let st = readLine()!.split(separator: " ").compactMap{Int($0)}
             for j in 0..<column{
                 map[i][j] = st[j]
             }
         }
-       
-       
-       cnt[row-1][column-1] = 1 //맨 마지막 장소 1로 초기설정 해줘야함, 안하면 마지막 도착지점 도착했어도 count 그대로임.
-       dfs(r: 0, c: 0)
-       print(cnt[0][0])
-    }
         
+        
+        cnt[row-1][column-1] = 1 //맨 마지막 장소 1로 초기설정 해줘야함, 안하면 마지막 도착지점 도착했어도 count 그대로임.
+        dfs(r: 0, c: 0)
+        print(cnt[0][0])
+    }
+    
     static func dfs(r:Int, c: Int) -> Int {
         
         var r = r
@@ -63,10 +63,8 @@ struct DFS {
         
         return cnt[r][c]
     }
-
+    
 }
 
-
-DFS.setNumbers()
-
+//DFS.setNumbers()
 //다시 해봐야할듯
