@@ -63,5 +63,4 @@ struct Main {
     
 }
 
-Main.start()
 
