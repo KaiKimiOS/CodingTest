@@ -44,7 +44,6 @@ func solution(_ gems:[String]) -> [Int] {
             if count == 0 {
                 map[gems[left]] = nil
             }
-            
             else {
                 map[gems[left]] = count
             }
@@ -56,7 +55,7 @@ func solution(_ gems:[String]) -> [Int] {
     return [start,end]
 }
 
-solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"])
+//solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"])
 
 
 
