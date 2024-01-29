@@ -37,7 +37,7 @@ func solution(_ citations:[Int]) -> Int {
     
     return result.last!
 }
-solution( [3, 4])
+//solution( [3, 4])
 //9번,11번 테스트 케이스
 //9번 [3, 4] -> 2
 //11버[6, 5, 3, 3, 0] ->3
