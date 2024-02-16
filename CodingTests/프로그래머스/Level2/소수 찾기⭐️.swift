@@ -1,15 +1,15 @@
-//
-//  main.swift
-//  CodingTests
-//
-//  Created by kaikim on 1/30/24.
-//
+////
+////  main.swift
+////  CodingTests
+////
+////  Created by kaikim on 1/30/24.
+////
 
 
 import Foundation
 
 func solution(_ numbers:String) -> Int {
-
+//
     //fisrValue 이어서 붙이면서 모든 경우의 수를 numberSet에 넣어줄것임
     var firstValue = ""
     
