@@ -7,20 +7,15 @@
 
 import Foundation
 
-//var array = [[1,1],[2,3], [2,4], [5,2], [5,1]]
-//var number = 5
-//var arrayList: [[Int]] = Array(repeating:[], count: number + 1)
-//
-//
-//for i in array {
-//    arrayList[i[0]].append(i[1])
-//}
-//
-//
-//print(arrayList[1])
-//for i in arrayList[2] {
-//    print(i)
-//}
+/*
+ BFS
+ 1. 가로줄, 세로줄의 갯수를 알기
+ 2. visited 배열, distance 배열 만들기 -> 2차원배열
+ 3. 다음 방문을 위한 큐 만들기
+ 4. 맵의 상,하,좌,우 체크를 위한 rx,ry 만들기
+ 5. 맵의 0,0 시작점을 큐에 넣어주기, visted[0][0] = true 해주기
+ 6. While문, 큐를 하나씩 뽑아서, 상하좌우, 및 요구조건 체크 후에 큐에 넣어주고 방문처리 해주기
+ */
 
 func solution(maps: [[Int]]) -> Int{
     //   열 열 열 열 열 = 열 갯수 5
