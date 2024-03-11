@@ -55,6 +55,8 @@
 		2AA68EE62B4F76E90015A9B8 /* 의상.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "의상.swift"; sourceTree = "<group>"; };
 		2AAB959A2B674AB70078041C /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
 		2AB37EFF2B4E146B0054AC9F /* 전화번호 목록.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "전화번호 목록.swift"; sourceTree = "<group>"; };
+		2ADF06902B9E8E7C007D4ABC /* ❓⭐️압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "❓⭐️압축.swift"; sourceTree = "<group>"; };
+		2ADF06932B9EA5A9007D4ABC /* 미로탐색(BFS).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "미로탐색(BFS).swift"; sourceTree = "<group>"; };
 		2AE3ED6A2B32817D009CB484 /* 네트워크(DFS).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "네트워크(DFS).swift"; sourceTree = "<group>"; };
 		2AE3ED6E2B32A888009CB484 /* 내리막 길(DFS).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "내리막 길(DFS).swift"; sourceTree = "<group>"; };
 		2AE8E54B2B61F5B800DF8C87 /* 더맵게(우선순위큐)⭐️.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "더맵게(우선순위큐)⭐️.swift"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				2A592F5A2B3AB16E00874A61 /* 알파벳(백트래킹).swift */,
 				B7718E252AFDF0D900AE872D /* 수 정렬하기.swift */,
 				B7718E2A2AFE25C600AE872D /* 수 정렬하기 3.swift */,
+				2ADF06932B9EA5A9007D4ABC /* 미로탐색(BFS).swift */,
 				B7718E272AFE1B7900AE872D /* 좌표정렬하기.swift */,
 				2AA4587E2B9B28A9005FD234 /* 연구소(BFS)⭐️.swift */,
 				2AA5BF432B44D4C4008A6C00 /* 수열(투포인터).swift */,
@@ -432,6 +435,7 @@
 				2AE8E54B2B61F5B800DF8C87 /* 더맵게(우선순위큐)⭐️.swift */,
 				B7616ABC2B1E35AA001BD299 /* 오픈채팅방.swift */,
 				2A1C0EA22B71CE3000CCDCEA /* 카펫⭐️.swift */,
+				2ADF06902B9E8E7C007D4ABC /* ❓⭐️압축.swift */,
 				2A0702B62B969B1D00AD1D4A /* 짝지어 제거하기.swift */,
 				2A578FB72B7C7EA100BF580A /* 피로도(dfs).swift */,
 				2A366D5D2B7DE06800822EED /* 전력망을 둘로 나누기(BFS)⭐️.swift */,
