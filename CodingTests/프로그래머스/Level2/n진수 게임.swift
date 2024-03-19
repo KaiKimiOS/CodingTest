@@ -32,7 +32,7 @@ func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
             // turn이 총 인원수에 도달하면 다시 초기화해주기, 아니면 turn +1 하기
             turn == m ? (turn = 1) : (turn += 1)
         }
-        //타겟 넘버 0부터 계속 +1 해주기
+        //타겟 넘버 0부터 계속 +1 해주
         target += 1
         
     }
