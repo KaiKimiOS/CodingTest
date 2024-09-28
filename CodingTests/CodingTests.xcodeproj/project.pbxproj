@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A2523382BAA725F004EB96F /* 두 큐 합 같게 만들기⭐️.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2523362BA9858B004EB96F /* 두 큐 합 같게 만들기⭐️.swift */; };
-		2A31F5432C199DDF00B33376 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A31F5422C199DDF00B33376 /* main.swift */; };
+		2A4742A02CA6999F00FD2C18 /* 보물.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47429F2CA6999D00FD2C18 /* 보물.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,12 +40,14 @@
 		2A2A8E192B633B03006AA339 /* 디스크 컨트롤러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "디스크 컨트롤러.swift"; sourceTree = "<group>"; };
 		2A2C810D2B4B7A9F0011707A /* 완주하지 못한 선수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "완주하지 못한 선수.swift"; sourceTree = "<group>"; };
 		2A2C810F2B4B931B0011707A /* 폰켓몬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "폰켓몬.swift"; sourceTree = "<group>"; };
-		2A31F5422C199DDF00B33376 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2A31F5422C199DDF00B33376 /* 구름연습.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "구름연습.swift"; sourceTree = "<group>"; };
 		2A366D5D2B7DE06800822EED /* 전력망을 둘로 나누기(BFS)⭐️.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "전력망을 둘로 나누기(BFS)⭐️.swift"; sourceTree = "<group>"; };
 		2A4114782B43A39F0039916B /* DP문제(3개).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DP문제(3개).swift"; sourceTree = "<group>"; };
 		2A448B232B84205E0000C386 /* 단어변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "단어변환.swift"; sourceTree = "<group>"; };
 		2A465B002B464F2700345046 /* 네트워크(Union-Find).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "네트워크(Union-Find).swift"; sourceTree = "<group>"; };
+		2A46EA652CA6946C0059D4EE /* Sport Climbing Combined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sport Climbing Combined.swift"; sourceTree = "<group>"; };
 		2A4740982BAF266100A415B4 /* 가장많이받은선물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장많이받은선물.swift"; sourceTree = "<group>"; };
+		2A47429F2CA6999D00FD2C18 /* 보물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "보물.swift"; sourceTree = "<group>"; };
 		2A4BD5722B47A9D70003CBC6 /* 호텔방배정(Union-Find).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "호텔방배정(Union-Find).swift"; sourceTree = "<group>"; };
 		2A4E00E22B6891B80001D3FD /* 소수 찾기⭐️.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "소수 찾기⭐️.swift"; sourceTree = "<group>"; };
 		2A52F98F2B9FFFD40093CA21 /* DFS와BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DFS와BFS.swift"; sourceTree = "<group>"; };
@@ -221,7 +223,8 @@
 		2A31F5412C199D8000B33376 /* 구름 */ = {
 			isa = PBXGroup;
 			children = (
-				2A31F5422C199DDF00B33376 /* main.swift */,
+				2A31F5422C199DDF00B33376 /* 구름연습.swift */,
+				2A47429F2CA6999D00FD2C18 /* 보물.swift */,
 			);
 			name = "구름";
 			path = "구름";
@@ -248,6 +251,7 @@
 		B70350DB2AF95174009E2E9E /* 백준 */ = {
 			isa = PBXGroup;
 			children = (
+				2A46EA652CA6946C0059D4EE /* Sport Climbing Combined.swift */,
 				B70350D92AF95121009E2E9E /* 구간 합 구하기 4.swift */,
 				B76910D12AFD289B0097A33E /* 오큰수.swift */,
 				2A52F98F2B9FFFD40093CA21 /* DFS와BFS.swift */,
@@ -530,8 +534,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4742A02CA6999F00FD2C18 /* 보물.swift in Sources */,
 				2A2523382BAA725F004EB96F /* 두 큐 합 같게 만들기⭐️.swift in Sources */,
-				2A31F5432C199DDF00B33376 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
